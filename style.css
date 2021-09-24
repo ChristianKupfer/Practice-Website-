@@ -1,0 +1,22 @@
+h1{
+    font-size: 45px;
+    font-family: "Hindi Siliguri";
+  }
+  body{
+    font-family: helvetica;
+    background-color: rgb(228, 157, 77);
+    color: white;
+  }
+  img {
+    width: 25vw;
+    margin: 20px;
+  }
+  form{
+    margin-left: 20px;
+    font-size: 3vw;
+  }
+  #top h1{
+    color:rgb(255,200,255);
+    border: solid .5px white;
+    border-radius: 10px;
+  }
