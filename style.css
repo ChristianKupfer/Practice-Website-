@@ -1,18 +1,15 @@
 h1{
-    font-size: 45px;
-    font-family: "Hindi Siliguri";
+    font-size: 60px;
+    font-family: "Futura";
   }
   body{
-    font-family: helvetica;
+    font-family: "futura light";
     background-color: rgb(228, 157, 77);
-    color: white;
-  }
-  img {
-    width: 25vw;
-    margin: 20px;
+    color: rgb(219, 219, 219);
+  
   }
   form{
-    margin-left: 20px;
+    margin-left: 40px;
     font-size: 3vw;
   }
   #top h1{
@@ -20,3 +17,5 @@ h1{
     border: solid .5px white;
     border-radius: 10px;
   }
+  a {
+      color:aquamarine
