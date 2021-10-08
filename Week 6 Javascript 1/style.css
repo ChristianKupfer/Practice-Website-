@@ -1,0 +1,79 @@
+body{
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  p{
+    font-family: helvetica;
+  }
+  
+  h1, h2{
+    font-family: "Helvetica Neue";
+    margin:50px;
+  }
+  
+  h2{
+    font-size: 40px;
+  }
+  
+  
+  #hero{
+    width:100vw;
+    height: 60vh;
+    overflow: hidden;
+    margin:0px;
+    padding: 0px;
+  }
+  
+  
+  #hero h1{
+    z-index: 1;
+    position: relative;
+    font-size: 5vw;
+    top: 30vh;
+    margin: 0 0 0 7vw;
+  }
+  
+  #one, #two, #three{
+    margin-right: 3vw;
+    margin-left: 7vw;
+    margin-top: 7vw;
+  }
+  
+  button{
+    background-color: #3483eb;
+    font-family: "comic sans";
+    font-size: 30px;
+    /* margin: 10px; */
+    padding: 7px 20px;
+  
+  }
+  
+  button:active{
+    background-color: blue;
+    color: white;
+  }
+
+  
+  button:hover{
+    border: solid rgb(255, 255, 255) 6px;
+  }
+  
+  
+  a:link{
+    color:blue
+  }
+  
+  
+  a:visited{
+    color: lightgrey;
+  }
+  
+  a:active{
+    color: yellow;
+  }
+  
+  a:hover{
+    font-size: 120%;
+    color: yellow;
+  }
