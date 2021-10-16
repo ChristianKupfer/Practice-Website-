@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans">
+</head>
+
+<body>
+<section id="quotesection">
+<h1 id="qtext">Click For a Quote!</h1>
+<button id="newquote">New Quote</button>
+</section>
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2>two</h2>
+  </div>
+
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+</section>
+
+<script>
+  const quotes = ['We Shine Bright So That Others May Shine Brighter.', 'We Never Outgrow The Truth.', 'Find Your Peace And Live In It.', 'Just Because Your Light Flickers Does Not Mean It’s About To Go Out.', 'The Simplest Answer Is Usually The Correct One.', 'In This Life You Do Get Second Chances.', 'Blue Is Not A Lonely Color.'];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount +=1;
+  }
+  }
+
+</script>
+
+</body>
+
+</html>
