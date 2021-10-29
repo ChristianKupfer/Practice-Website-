@@ -1,0 +1,57 @@
+#tabs{
+    display: flex;
+    margin: 25vh 10vw 0 10vw;
+  }
+
+  h1{
+
+    margin: 10vh 5vw 0 10vw;
+  }
+
+  body{
+    font-family: "futura light";
+    background-color: rgb(192, 20, 192);
+    color: rgb(255, 255, 255);
+  }
+  
+  #items{
+    display:flex;
+    margin: 0vh 10vw 0 10vw;
+    padding-top: 40px;
+    border: 4px solid rgb(10,7,192);
+    border-top: none;
+  }
+  
+  .day{
+    flex-grow: 1;
+    width: auto;
+    border: 4px solid rgb(10, 7, 192);
+    background-color:rgb(10, 7, 192);
+  }
+  
+  #image, .menu{
+    flex-grow: 1;
+    width:auto;
+    max-width: 50%;
+  }
+  
+  h2{
+    margin-top: 40px;
+    padding-bottom: 0;
+    font-size: 200%;
+    margin-left: 30px;
+  }
+  
+  #Tcare, #Wcare, #Thcare, #Fcare, #Sacare, #Sucare{
+    display: none;
+  }
+  
+  .active{
+    background-color: rgb(192, 20, 192);
+    border-bottom:none;
+  }
+  
+
+  
+ 
+  }
