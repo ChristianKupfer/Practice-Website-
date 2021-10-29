@@ -1,0 +1,53 @@
+#quotesection{
+    background-color: #139444;
+    margin: 50vh 30vw;
+    padding: 8vh 10vw 10vh 10vw;
+    border-radius: 8px;
+    height: 30vh;
+  }
+  
+  button{
+    border-radius: 8px;
+    padding: 1vh 3vw;
+    float: right;
+    margin-top: 1vh;
+    background-color: black;
+    color: #e8eaed;
+    font-family:"Futura";
+    font-weight:bold;
+    position:absolute;
+    bottom:50px;
+    right:525px;
+  }
+  
+  button:hover{
+    border: #fff solid 1px;
+  }
+  
+  button:active{
+    color: #c3c6c9;
+  }
+  
+  h1{
+    color: #ffffff;
+    font-family:"Helvetica";
+    font-weight: 200;
+  }
+  
+  #flex{
+    display: flex;
+    margin: 150px;
+  }
+  
+  div{
+    border: 1px solid black;
+    margin-left: 2vw;
+  }
+  
+  .flexitem{
+    flex-grow: 1;
+  }
+  
+  .flexitem2{
+    flex-grow: 2;
+  }
