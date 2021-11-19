@@ -1,0 +1,30 @@
+
+nav{
+    display:flex;
+    width: 50vw;
+    justify-content: right;
+    flex-wrap: wrap;
+    margin: 30px auto 30px calc(100% - 50vw);
+  }
+  nav a{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #1f1b1b;
+  }
+
+h1{
+    font-family: Helvetica;
+    font-size: 50px;
+    font-weight: 300;
+    margin-left: 200px;
+    color: #1f1b1b; 
+}
+
+@media screen and (min-width:800px){
+    #contactimg{
+      display:block;
+
+    }}
